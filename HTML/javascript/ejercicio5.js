@@ -4,8 +4,8 @@ const mesesLargos = meses
     .filter(meses => meses.length > 7)
     .map(meses => meses.toUpperCase()); 
 
-console.log(mesesLargos)
+console.log(mesesLargos);
 
 const numMesesLargos = mesesLargos.length; 
 
-console.log(`Hay ${numMesesLargos} meses largos`)
+console.log(`Hay ${numMesesLargos} meses largos`);
