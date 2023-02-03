@@ -8,12 +8,17 @@
         <link rel="stylesheet" href="reset.css">
         <title>Prueba CSS --- ABS</title>
         <style>
-            .text2 {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;padding-left: 1%;padding-right:1%; padding-top: none;padding-bottom: 1%;}
+            .text2 {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-left: 1%;padding-right:1%; 
+                padding-top: none;
+                padding-bottom: 1%;
+            }
         </style>
     </head>
     <body>
         <header>Header</header>
-        <h1 id ="title">Ejercicio 3 -- Nav Bar</h1>
+        <h1 id ="title" style="text-align:center;padding-bottom: 1%;">Ejercicio 3 -- Nav Bar</h1>
         <nav class = "menu">
             <div class = "menuItem">Home</div>
             <div class = "menuItem">Blog</div>
@@ -31,8 +36,8 @@
                 </ul>
             </div>
             <div>
+                <h1 id="title">Ejercicio 1 -- Integración de Estilos</h1> <!-- style="font-size:larger; padding-left:1%; padding-right: 1%; padding-top:1%; padding-bottom: none; font-weight: bold;" -->
                 <section>
-                    <h1 id="title">Ejercicio 1 -- Integración de Estilos</h1> <!-- style="font-size:larger; padding-left:1%; padding-right: 1%; padding-top:1%; padding-bottom: none; font-weight: bold;" -->
                     <p class="text">
                         TEXTO CON LOS ESTILOS EXTERNOS <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor dapibus neque, quis malesuada dui. Cras tincidunt leo sit amet orci pellentesque pulvinar. Morbi dignissim ipsum eu metus fringilla, vitae fringilla elit laoreet. Etiam hendrerit rutrum felis, in condimentum est fringilla et. Nulla lorem metus, aliquam ac convallis vitae, placerat at orci. Donec imperdiet quam non lectus placerat, ut efficitur diam blandit. Donec commodo metus ac nisi suscipit, non pretium dolor mattis. Nullam lobortis lorem non massa aliquet, quis finibus nulla dictum. Vivamus nec sapien porta, cursus magna at, viverra odio. <br><br>                        
                     </p>
@@ -82,17 +87,37 @@
                         <input class="boton" type="submit">
                     </form>
                 </div>
+                <div id="ejercicio6">
+                    <h1 id="title">Ejercicio6 -- Opiniones</h1>
+                    <div id="opinion">
+                        <div id ="imagen">
+                            <img src="https://via.placeholder.com/120.png" alt="imagenPlaceholder">
+                        </div>
+                        <div id="info">
+                            <h2 id="informacion">Centro de Salud</h2> 
+                            <h3 id="informacion2">Hospital</h3>
+                            <button class="button">Reservar Cita</button> 
+                            <button class="button">Pedir Presupuesto</button>
+                        </div>
+                        <div id="comentario">
+                            <p id="comment">10 Comentarios</p> <br>
+                            <p id="comment">Ver comentarios</p>
+                        </div>
+                        <div id ="imagencoment">
+                            <img src="https://via.placeholder.com/90.png?text=8.9" alt="imagenPlaceholder">
+                        </div>
+                    </div>
+                </div>
             </div>
             <aside>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXsb_FEvIgrgbux5j7BTvWyopaWx61PBytBGLA1D391kFJi2j0faoyh_w7S7iPjm6A3GQ&usqp=CAU">
+                <h1 id="title">Esto es el ASIDE</h1>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXsb_FEvIgrgbux5j7BTvWyopaWx61PBytBGLA1D391kFJi2j0faoyh_w7S7iPjm6A3GQ&usqp=CAU" alt="ImagenPlaceholder">
             </aside>
         </div>
         <footer>
-            <ul>
-                <li>Correo</li>
-                <li>Contacto</li>
-                <li>Más</li>
-            </ul>
+            <div class = "menuItem">Correo</div>
+            <div class = "menuItem">Contacto</div>
+            <div class = "menuItem">Más</div>
         </footer> 
     </body>
 </html>
