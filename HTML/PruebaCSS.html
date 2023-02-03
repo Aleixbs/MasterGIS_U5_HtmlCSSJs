@@ -7,9 +7,13 @@
         <link rel="stylesheet" href="estilos.css">
         <link rel="stylesheet" href="reset.css">
         <title>Prueba CSS --- ABS</title>
+        <style>
+            .text2 {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;padding-left: 1%;padding-right:1%; padding-top: none;padding-bottom: 1%;}
+        </style>
     </head>
     <body>
         <header>Header</header>
+        <h1 id ="title">Ejercicio 3 -- Nav Bar</h1>
         <nav class = "menu">
             <div class = "menuItem">Home</div>
             <div class = "menuItem">Blog</div>
@@ -17,17 +21,67 @@
             <div class = "menuItem">Contacto</div>
         </nav>
         <div class="container">
+            <div id="ejercicio4">
+                <h1 id="title">Ejercicio 4 -- Menú Lateral</h1>
+                <ul>
+                    <li><a href="https://twitter.com/">Twitter</a></li>
+                    <li><a href="https://www.twitch.tv/">Twitch</a></li>
+                    <li><a href="https://www.youtube.com/">Youtube</a></li>
+                    <li><a href="https://www.google.com/">Google</a></li>
+                </ul>
+            </div>
             <div>
                 <section>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor dapibus neque, quis malesuada dui. Cras tincidunt leo sit amet orci pellentesque pulvinar. Morbi dignissim ipsum eu metus fringilla, vitae fringilla elit laoreet. Etiam hendrerit rutrum felis, in condimentum est fringilla et. Nulla lorem metus, aliquam ac convallis vitae, placerat at orci. Donec imperdiet quam non lectus placerat, ut efficitur diam blandit. Donec commodo metus ac nisi suscipit, non pretium dolor mattis. Nullam lobortis lorem non massa aliquet, quis finibus nulla dictum. Vivamus nec sapien porta, cursus magna at, viverra odio. <br><br>
-
-                        Integer ante lectus, malesuada id tincidunt id, lacinia sed felis. Ut lorem felis, posuere a nisl sed, sagittis dictum magna. Proin id ipsum ut sapien maximus egestas a ullamcorper ante. Ut sollicitudin sapien et justo gravida condimentum. Integer viverra, magna et dapibus eleifend, urna lectus rhoncus est, et ornare lectus orci vel dolor. Suspendisse nunc quam, scelerisque id imperdiet nec, euismod sed urna. Aliquam sit amet magna lectus. Cras cursus quam viverra iaculis interdum.<br><br>
-                        
-                        Cras imperdiet massa non leo bibendum molestie. Morbi rutrum tincidunt mattis. Nulla facilisi. Praesent rhoncus purus vel dui commodo lacinia. Pellentesque convallis, sem ut facilisis ultricies, tellus metus tempor eros, eu ornare felis lorem quis urna. Suspendisse scelerisque sed enim sed facilisis. Sed vehicula fringilla tellus non dapibus.<br><br>
-                        
-                        In hac habitasse platea dictumst. Maecenas at feugiat lorem, eu eleifend risus. Aliquam sodales tellus id ultricies eleifend. In fermentum dignissim nisi, eu ultrices leo eleifend eu. Sed ut aliquam urna, vel accumsan magna. Ut sit amet turpis iaculis, pretium enim non, pretium massa. Sed sollicitudin, justo ac maximus aliquet, odio dui facilisis purus, ac semper neque nisi pharetra diam. Praesent vitae metus nec erat commodo aliquam id eu mi. Nam tortor nisi, accumsan vitae sem vel, ullamcorper eleifend nisi. Etiam congue purus ante, vitae fringilla massa dapibus vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla mattis dolor id gravida mattis. Sed sed iaculis purus. Integer eu urna sit amet eros dapibus auctor. Vestibulum nec tortor quis magna efficitur consequat. Duis varius, lacus eu rhoncus laoreet, velit enim semper lacus, sit amet aliquet est turpis vel mauris.</p>
+                    <h1 id="title">Ejercicio 1 -- Integración de Estilos</h1> <!-- style="font-size:larger; padding-left:1%; padding-right: 1%; padding-top:1%; padding-bottom: none; font-weight: bold;" -->
+                    <p class="text">
+                        TEXTO CON LOS ESTILOS EXTERNOS <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor dapibus neque, quis malesuada dui. Cras tincidunt leo sit amet orci pellentesque pulvinar. Morbi dignissim ipsum eu metus fringilla, vitae fringilla elit laoreet. Etiam hendrerit rutrum felis, in condimentum est fringilla et. Nulla lorem metus, aliquam ac convallis vitae, placerat at orci. Donec imperdiet quam non lectus placerat, ut efficitur diam blandit. Donec commodo metus ac nisi suscipit, non pretium dolor mattis. Nullam lobortis lorem non massa aliquet, quis finibus nulla dictum. Vivamus nec sapien porta, cursus magna at, viverra odio. <br><br>                        
+                    </p>
+                    <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;padding-left: 1%;padding-right:1%; padding-top: none;">
+                        TEXTO CON LOS ESTILOS INLINE <br> Integer ante lectus, malesuada id tincidunt id, lacinia sed felis. Ut lorem felis, posuere a nisl sed, sagittis dictum magna. Proin id ipsum ut sapien maximus egestas a ullamcorper ante. Ut sollicitudin sapien et justo gravida condimentum. Integer viverra, magna et dapibus eleifend, urna lectus rhoncus est, et ornare lectus orci vel dolor. Suspendisse nunc quam, scelerisque id imperdiet nec, euismod sed urna. Aliquam sit amet magna lectus. Cras cursus quam viverra iaculis interdum.<br><br>
+                    </p>
+                    <p class="text2">
+                        TEXTO CON LOS ESTILOS INTERNOS <br> In hac habitasse platea dictumst. Maecenas at feugiat lorem, eu eleifend risus. Aliquam sodales tellus id ultricies eleifend. In fermentum dignissim nisi, eu ultrices leo eleifend eu. Sed ut aliquam urna, vel accumsan magna. Ut sit amet turpis iaculis, pretium enim non, pretium massa. Sed sollicitudin, justo ac maximus aliquet, odio dui facilisis purus, ac semper neque nisi pharetra diam. Praesent vitae metus nec erat commodo aliquam id eu mi. Nam tortor nisi, accumsan vitae sem vel, ullamcorper eleifend nisi. Etiam congue purus ante, vitae fringilla massa dapibus vel. Interdum et malesuada 
+                        fames ac ante ipsum primis in faucibus. Nulla mattis dolor id gravida mattis. Sed sed iaculis purus. Integer eu urna sit amet eros dapibus auctor. Vestibulum nec tortor quis magna efficitur consequat. Duis varius, lacus eu rhoncus laoreet, velit enim semper lacus, sit amet aliquet est turpis vel mauris.
+                    </p>
                 </section>
-                <article><img src="https://live.staticflickr.com/7221/7058741151_3eb2f65121_b.jpg" style="height: 100px; width:100px;"></article>
+                <div class="ejercicio2">
+                    <h1 id="title">Ejercicio 2 -- Herencia</h1>
+                    <h1>Nuestra misión</h1>
+                    <div>
+                        <p>
+                            En Esri España formamos, acompañamos y ayudamos a nuestros clientes a integrar con éxito los Sistemas de Información Geográfica en sus procesos de negocio para que tomen mejores decisiones.
+                        </p>
+                        <p>
+                            Somos un equipo de más de cien profesionales formados en geografía, tecnología y gestión, que disponemos de la mejor plataforma de información geográfica que existe en el mercado. 
+                        </p>
+                        <p>
+                            Llevamos Esri a nuevos mercados, asesoramos a nuestros clientes de manera integral y compartimos nuestra experiencia y conocimiento para que cada persona sienta que abordamos su situación con un enfoque estratégico y de manera única.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Los Valores</h2>
+                        <ul>
+                            <li>Innovación</li>
+                            <li>Desarrollo Tecnológico</li>
+                            <li>Sustentabilidad</li>
+                        </ul>
+                    </div>
+                </div>
+                <article>
+                    <img src="https://live.staticflickr.com/7221/7058741151_3eb2f65121_b.jpg" style="height: 100px; width:100px;">
+                </article>
+                <div id="ejercicio5">
+                    <h1 id="title">Ejercicio 5 -- Formulario</h1><br>
+                    <form>
+                        <label for="name">Nombre:</label><br>
+                        <input id="text" type="text"> <br>
+                        <label for="email">Email:</label><br>
+                        <input type="email"> <br>
+                        <label for="coments">Comentarios</label><br>
+                        <textarea name="comentario" rows="4" cols="50"></textarea> <br>
+                        <input class="boton" type="submit">
+                    </form>
+                </div>
             </div>
             <aside>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXsb_FEvIgrgbux5j7BTvWyopaWx61PBytBGLA1D391kFJi2j0faoyh_w7S7iPjm6A3GQ&usqp=CAU">

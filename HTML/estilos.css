@@ -1,23 +1,11 @@
+/*Base del documento*/
 header{
     background-color: greenyellow;
     text-align: center;
     font-size:60px;
 }
-nav{
-    background-color: grey;
-    align-content: center;
-}
-.menu{
-    display:flex;
-    flex-direction: row;
-}
-.menuItem{
-    padding-left:12.5%;
-    padding-right:12.5%;
-    text-align: center;
-}
 section{
-    background-color: chocolate;
+    background-color: rgb(244, 197, 163);
 }
 article{
     background-color: aquamarine;
@@ -32,4 +20,123 @@ aside{
 .container{
     display:flex;
     flex-direction: row;
+}
+/*Ejercicio 1 --- Integración de Estilos*/
+.text{
+    padding-left:1%;
+    padding-right: 1%;
+    padding-top:1%;
+    padding-bottom: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#title {
+    font-size:20px;
+    padding-left:1%;
+    padding-right: 1%;
+    padding-top:1%;
+    padding-bottom: none;
+    font-weight: bold;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Ejercicio 2 --- HERENCIA */
+.ejercicio2 {
+    font-size:14px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    background-color: lightblue;
+    line-height:1.5rem;
+}
+/*Ejercicio 3 ---  Nav Bar*/
+nav{
+    background-color: rgb(57, 57, 57);
+    align-content: center;
+    color:white;
+}
+.menu{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly; /*space-around*/
+}
+.menuItem{
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    padding-left:1%;
+    padding-right:1%;
+    text-align: center;
+}
+.menuItem:hover{
+    color:yellow;
+    cursor: pointer;
+}
+
+
+/*Ejercicio 4 --  links del menú lateral*/
+#ejercicio4 {
+    displaY:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    margin-left:20px;
+    margin-right:5%;
+    margin-top:5%;
+}
+#ejercicio4 ul li{
+    padding:5%;
+    margin:5%;
+    border:5%;
+}
+#ejercicio4 ul li a{
+    background-color:lightblue;   
+}
+#ejercicio4 ul li a:visited{
+    color: green;
+}
+#ejercicio4 ul li a:hover{
+    color:red;
+}
+/*Ejercicio 5 -- Formulario*/
+#ejercicio5{
+    align-content:center;
+    justify-content:center;
+    align-items:center;
+}
+#ejercicio5 form{
+    border-top:10px;
+}
+#ejercicio5 form label {
+    font-weight: bold;
+    justify-content: left;
+    margin-right:50px;
+    padding-top:50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#ejercicio5 form textarea{
+    width: 90%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin-top:1%;
+}
+input[type=text],[type=email]{
+    border:1%;
+    margin:1% 0 1% 0;
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    border: 2px solid;
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    margin: 1% 40%;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: white;
+    border:2px solid #04AA6D;
+    color: #04AA6D;
 }
