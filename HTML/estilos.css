@@ -2,17 +2,15 @@
 header{
     background-color: greenyellow;
     text-align: center;
-    font-size:60px;
+    font-size:70%;
+    font-weight:bold;
 }
 article{
     background-color: aquamarine;
 }
 footer{
-    display:block;
     background-color: black;
     color: white;
-    justify-content: space-evenly;
-    align-content:center;
 }
 aside{
     background-color: beige;
