@@ -1,0 +1,60 @@
+.content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color:rgb(28, 119, 63); 
+}
+
+.red{
+    color:red;
+}
+
+.blue{
+    color:blue;
+}
+
+.orange{
+    color:orange;
+}
+
+.green{
+    color:green;
+}
+
+.darkgreen{
+    color:darkgreen;
+}
+
+#pink{
+    color:pink;
+}
+
+#principal p #red {
+    color:red; 
+    font-weight: bold;
+}
+
+#principal p #redunder {
+    color:red; 
+    text-decoration: underline;
+}
+
+#principal p #blueunderitalics {
+    color:blue;
+    text-decoration: underline red;
+    font-style: italic;
+}
+
+#principal p #orange {
+    color:rgb(252, 156, 31); 
+    font-weight:lighter;
+}
+
+/*Tabla*/
+table, td, th {
+    border: 1px solid black;
+  }
+
+table{
+    border-collapse: collapse;
+}
