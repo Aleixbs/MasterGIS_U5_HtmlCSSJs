@@ -19,18 +19,25 @@
 <body>
     <h1>Formulario de Registro</h1>
     <form>
-        <label> Nombre:   </label><input type="text"> <br><br>
-        <label> Apellido: </label><input type="text"> <br><br>
-        <label> Sexo: </label><input type="radio" id="hombre" name="sexo"><label for="hombre">Hombre</label><input type="radio" id="mujer" name="sexo"><label for="mujer">Mujer</label> <br><br>
-        <label> Correo: </label><input type="email"> <br><br>
-        <label>Población:  </label><select>
+        <label for="username">Nombre:</label>
+        <input type="text" name="username"> <br><br>
+        <label for="usersurname">Apellido:</label>
+        <input type="text" name="usersurname"> <br><br>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="hombre" name="sexo"><label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="sexo"><label for="mujer">Mujer</label> <br><br>
+        <label for="correo">Correo:</label>
+        <input type="email" name="correo"> <br><br>
+        <label for="poblacion">Población:</label>
+        <select name="poblacion">
             <option value="Madrid">Madrid</option>
             <option value="Barcelona">Barcelona</option>
             <option value="Alicante">Alicante</option>
         </select><br><br>
-        <label>Descripción:  </label><textarea></textarea><br><br>
-        <input type="checkbox"><label>  Deseo recibir información sobre novedades y ofertas</label><br><br>
-        <input type="checkbox"><label>  Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br><br>
+        <label>Descripción:</label>
+        <textarea></textarea><br><br>
+        <input type="checkbox"><label>Deseo recibir información sobre novedades y ofertas</label><br><br>
+        <input type="checkbox"><label>Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br><br>
         <button>Enviar</button>
     </form>
 </body>
