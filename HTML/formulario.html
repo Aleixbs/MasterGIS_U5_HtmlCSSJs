@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <style>
+        body{
+            margin:2.5% 10%;
+            padding:2.5% 10%;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        label{
+            font-size:1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <form>
+        <label> Nombre:   </label><input type="text"> <br><br>
+        <label> Apellido: </label><input type="text"> <br><br>
+        <label> Sexo: </label><input type="radio" id="hombre" name="sexo"><label for="hombre">Hombre</label><input type="radio" id="mujer" name="sexo"><label for="mujer">Mujer</label> <br><br>
+        <label> Correo: </label><input type="email"> <br><br>
+        <label>Población:  </label><select>
+            <option value="Madrid">Madrid</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Alicante">Alicante</option>
+        </select><br><br>
+        <label>Descripción:  </label><textarea></textarea><br><br>
+        <input type="checkbox"><label>  Deseo recibir información sobre novedades y ofertas</label><br><br>
+        <input type="checkbox"><label>  Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br><br>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
