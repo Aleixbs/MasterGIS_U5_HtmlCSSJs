@@ -2,6 +2,7 @@ body{
     display: flex;
     max-width: 1120px;
     height: 100%;
+    margin:0;
 }
 
 #menuLateral {
@@ -34,9 +35,11 @@ body{
 #menuLateral ul li a{
     text-decoration: none;
     color:white;
+    display: block;
+    padding:10px;
+    box-sizing: border-box;
 }
 
 #menuLateral ul li:hover {
     background-color: darkgreen;
-    cursor: pointer;
 }
