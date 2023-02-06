@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    max-width: 1120px;
+    height: 100%;
+}
+
+#menuLateral {
+    width:25%;
+    background-color: green;
+    height:100%;
+    bottom: 0;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:fixed;
+}
+
+#menuLateral ul {
+    list-style: none;
+    color:inherit;
+    display:flex;
+    flex-direction:column;
+    align-content:left;
+    justify-content: flex-start;
+    height:inherit;
+}
+
+#menuLateral ul li{
+    padding: 5%;
+    font-size:large;
+    font-weight: bold;
+    margin:5%;
+}
+
+#menuLateral ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+#menuLateral ul li:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
