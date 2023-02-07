@@ -15,7 +15,7 @@ if (pedido == "si") {
             alert(`El topping de ${topping} cuesta 0.75€ más, en total el helado son ${helado + 0.75}€`);
         }
         else if (topping === "lacasitos"){
-            alert(`El topping de ${topping} cuesta 0.95€ más, en total el helado son ${helado + 0.75}€`);
+            alert(`El topping de ${topping} cuesta 0.95€ más, en total el helado son ${parseFloat(helado + 0.95).toFixed(2)}€`);
         }
         else {
             alert("No tenemos ese topping");
