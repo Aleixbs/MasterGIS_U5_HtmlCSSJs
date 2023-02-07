@@ -21,33 +21,24 @@ h1{
     color:green;
 }
 
+.olivegreen{
+    color:olive;
+}
+
 .darkgreen{
     color:darkgreen;
 }
 
 #pink{
-    color:pink;
+    color:rgb(255, 58, 196);
 }
 
-#principal p #red {
-    color:red; 
-    font-weight: bold;
-}
-
-#principal p #redunder {
-    color:red; 
+#under {
     text-decoration: underline;
 }
 
-#principal p #blueunderitalics {
-    color:blue;
-    text-decoration: underline red;
+#italics {
     font-style: italic;
-}
-
-#principal p #orange {
-    color:rgb(252, 156, 31); 
-    font-weight:lighter;
 }
 
 /*Tabla*/
