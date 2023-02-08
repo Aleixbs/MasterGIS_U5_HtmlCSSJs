@@ -1,0 +1,12 @@
+/*Fuente de google: Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/*Alinear los bordes de los elementos de la página al borde*/
+* {
+    box-sizing: border-box;
+  }
+
+.nav__list{
+    display:flex; 
+    flex-direction:column; 
+}
