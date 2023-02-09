@@ -1,0 +1,28 @@
+body{
+    display:flex; 
+    justify-content: space-around;
+    flex-direction: column;
+    margin:0; 
+    padding:20%;
+    align-items: center;
+}
+
+input{
+    margin:20%;
+    padding:20px;
+}
+
+#btn{
+    background-color: blue;
+    color:white; 
+    padding:20px 40px;
+    border-radius:20px;
+}
+
+#btn:hover{
+    background-color: white;
+    color:blue; 
+    padding:20px 40px;
+    border-radius:20px;
+    cursor: pointer;
+}
