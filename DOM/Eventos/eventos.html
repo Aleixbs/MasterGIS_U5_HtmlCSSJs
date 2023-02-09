@@ -15,12 +15,16 @@
     <br>
     <p>Cuando hagamos foco sobre este input se pondrá de color amarillo y cuando se lo quitemos cambiará de color</p>
     <label>Nombre</label>
-    <input type="text">
+    <input type="text" onfocus="estilo()" onfocusout="estilofuera">
     <br>
     <br>
     <p>Dependiendo si escribimos una vocal o una consonante el contenido del input aparecerá de distinto color</p>
     <label for="">Escribe una letra</label>
     <input type="text" >
+    <button>
+        CLICK HERE
+      </button>
+    <button onclick="guardado()">Click</button>
     <script src="eventos.js"></script>
 </body>
 </html>

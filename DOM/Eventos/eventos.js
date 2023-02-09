@@ -19,15 +19,15 @@ function estilo() {
     inputs[0].style.backgroundColor = 'yellow';
 }
 function estilofuera() {
-    inputs[0].style.background = 'none';
+    inputs[0].style.backgroundColor = '';
 }
 // Dependiendo si escribimos una vocal o una consonante el contenido del input aparecerá de distinto color
 var letra = inputs[1].addEventListener('keypress',vocCons)
-var vocales = [97,101,105,111,117,65,69,73,79,85]
 
 console.log(inputs[1].childNodes)
 
 function vocCons(evento){
+    var vocales = [97,101,105,111,117,65,69,73,79,85]
     console.log(evento.keyCode)
     if (vocales.includes(evento.keyCode) == true){
         inputs[1].style.color = 'red';
@@ -35,8 +35,4 @@ function vocCons(evento){
     else {
         inputs[1].style.color = 'green';
     }
-
-    // if (letra  vocal){
-
-    // }
 }
