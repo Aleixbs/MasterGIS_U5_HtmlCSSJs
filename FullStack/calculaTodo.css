@@ -1,7 +1,19 @@
 body{
-    padding:20rem;
+    padding-top:3rem;
 }
 
-input{
-    margin:20px;
+.container{
+    padding:3rem;
+}
+
+.btn-default{
+    margin-top:1rem;
+    margin-right:1rem;
+    border:1px solid black;
+    border-radius:5px;
+}
+
+.btn-default:hover{
+    background-color: black;
+    color:white;
 }

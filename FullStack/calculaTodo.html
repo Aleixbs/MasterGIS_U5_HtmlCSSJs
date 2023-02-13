@@ -15,12 +15,21 @@
 </head>
 
 <body>
-    <p>Introduce números enteros separados por comas</p>
-
-    <input type="text" name="numero" id="numerosinput">
-    <button type="button" id="example" onclick="ejemplo()">Cargar ejemplo</button>
-    <button type="submit" onclick="sumaTodo()">Calcular</button>
-    <button type="reset" onclick="resetApp()">Reiniciar</button>
+    <div class="jumbotron text-center"> 
+        <h1>Ejercicio: Calcula Todo</h1>
+        <h4>Máster Presencial Esri</h4>
+        <p>Introduce números enteros separados por comas</p>
+    </div>
+   
+    <div class="container">
+        <div class="form-group">
+            <label for="numerosinput">Numeros:</label>
+            <input type="text" name="numero" id="numerosinput" class="form-control">
+            <button type="button" class="btn-default" id="example" onclick="ejemplo()">Cargar ejemplo</button>
+            <button type="submit" class="btn-default" onclick="sumaTodo()">Calcular</button>
+            <button type="reset" class="btn-default" onclick="resetApp()">Reiniciar</button>
+        </div>
+    </div>
 
 
     <p id="solucion1"></p>

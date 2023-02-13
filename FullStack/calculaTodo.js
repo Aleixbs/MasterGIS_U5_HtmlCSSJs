@@ -5,7 +5,6 @@ function ejemplo(){
 };
 
 
-
 function sumaTodo(){
     var sumaTotal = 0
     var media = 0
@@ -45,8 +44,21 @@ function sumaTodo(){
 };
 
 function resetApp(){
-    return document.getElementById('solucion1').remove(), document.getElementById('solucion2').remove(), 
-    document.getElementById('solucion3').remove(), document.getElementById('solucion4').remove(), document.getElementById('numerosinput').value = '';
+    return document.getElementById('solucion1').innerHTML = '', document.getElementById('solucion2').innerHTML = '', 
+    document.getElementById('solucion3').innerHTML = '', document.getElementById('solucion4').innerHTML = '', document.getElementById('numerosinput').value = '';
 
 };
 
+// Esta función se puede usar sólo una vez debido al uso del remove y que en la función de la suma no estamos creando elementos p al momento de printear el resultado. Simplemente usamos elementos ya existentes 
+
+// function resetApp(){
+//     return document.getElementById('solucion1').remove(), document.getElementById('solucion2').remove(), 
+//     document.getElementById('solucion3').remove(), document.getElementById('solucion4').remove(), document.getElementById('numerosinput').value = '';
+
+// };
+
+
+// Conseguir el máximo y el módulo Math de javascript
+
+// var max = Math.max(...listNumeros)
+// var min = Math.min(...listNumeros)
