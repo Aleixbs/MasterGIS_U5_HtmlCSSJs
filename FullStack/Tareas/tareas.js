@@ -5,9 +5,18 @@ function listaTareas(){
     var crearli = document.createElement('li');
     var checkbox = document.createElement('input'); 
     checkbox.type = 'checkbox'; 
-    checkbox.id = 'checkboxElement'; 
+            //checkbox.setAttribute('type','checkbox')
+    checkbox.id = 'checkboxElement';
+            //checkbox.setAttribute('id','checkboxElement')
     // checkbox.name = 'name'; 
+            //checkbox.setAttribute('name','name')
     // checkbox.value = 'value'; 
+            //checkbox.setAttribute('value','value')   
+
+ 
+   
+  
+   
 
     // var label = document.createElement('label'); 
     // label.htmlFor = 'checkboxElement'; 
