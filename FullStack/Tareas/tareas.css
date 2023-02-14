@@ -1,0 +1,21 @@
+body{
+    margin:0; 
+    padding:2rem;
+}
+
+h1{
+    align-self: left;
+    margin:1rem;
+}
+
+#textoEntrada{
+    margin:1rem;
+}
+
+.btn{
+    margin:1rem;
+}
+
+#checkboxElement{
+    margin:1rem;
+}
